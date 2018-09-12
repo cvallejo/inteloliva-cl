@@ -11,7 +11,6 @@
 |
 */
 $url_base = 'https://intelvid.la';
-//$url_base = 'https://woc-intelvid.dev';
 
 Route::get('/', function () use ($url_base) {
     return redirect($url_base);
