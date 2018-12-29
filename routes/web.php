@@ -13,6 +13,7 @@
 $url_base = 'https://intelvid.la';
 
 Route::get('/', function () use ($url_base) {
+    dd($url_base);
     return redirect($url_base);
 });
 Route::get('/{cualquier_cosa}', function () use ($url_base) {
